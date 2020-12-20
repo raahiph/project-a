@@ -1,0 +1,131 @@
+body * {
+  font-family: 'Montserrat';
+}
+
+body {
+  background-color: #F0F1F2;
+}
+
+.stepBox {
+  border-radius: 15px;
+  width: 85%;
+  -webkit-box-shadow: 1px 1px 27px -8px rgba(0,0,0,0.33);
+  box-shadow: 7px 4px 17px -8px rgba(0,0,0,0.33);
+  margin-top: 45px;
+  background-color: white;
+}
+
+.stepBox {
+  padding: 25px;
+}
+
+@media (min-width: 768px) {
+  .stepBox {
+    padding: 50px;
+  }
+}
+
+.stepBtn {
+  background-color: #F0F1F2;
+  border-radius: 10px;
+  border: 2px solid #344A5F;
+  color: #344A5F;
+  font-weight: bold;
+}
+
+.stepBtn:hover {
+  background-color: #2A94D5;
+  color: white;
+  font-weight: bold;
+}
+
+.stepTitle {
+  margin-bottom: 25px;
+}
+
+.btnRow {
+  margin-top: 25px;
+}
+
+#navLogo {
+  width: 70px;
+}
+
+.step3 .radioSizes, .pickupRadio {
+  border: 2px solid #F0F1F2;
+  padding: 5px 10px 5px 10px;
+  width: 90px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.step3 input[type=radio], .locations {
+  display: none;
+}
+
+.step3 input:checked + label, .locations:checked + label {
+  border: 2px solid #344A5F;
+  background-color: #2A94D5;
+  color: white;
+  /*transition: background 300ms linear;*/
+}
+
+.stepRadio {
+  margin-bottom: 15px;
+}
+
+.stepPL {
+  padding-left: 25px;
+}
+
+.pickupRadio {
+  width: 126px !important;
+}
+
+.hide {
+  display: none;
+}
+
+.alert.red {
+  background-color: #CF5C60;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  animation: pulse 1s;
+}
+
+.alert.green {
+  background-color: #4AB471;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+}
+
+.alert a {
+  color: white;
+}
+
+@keyframes pulse {
+  10% {
+    transform: scale(1);/
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+.fileBox {
+  border: 2px dashed #2A94D5;
+  border-radius: 10px;
+  outline-offset: -10px;
+  width: 100% !important;
+  height: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.fileBox:hover {
+  background-color: #F0F1F2;
+}
